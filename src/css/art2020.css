@@ -1,0 +1,2042 @@
+#wrap {
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+    overflow-x: hidden;
+    font-family: 'NotoSansKR';
+}
+
+#wrap2 {
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+    overflow-x: hidden;
+    font-family: 'NotoSansKR';
+    overflow-y: hidden;
+}
+
+p {
+    letter-spacing: 0;
+}
+
+.mo {
+    display: none;
+}
+
+.sr-only {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+
+/* header */
+
+#header h1 {
+    height: 119px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-size: contain;
+    background-size: contain;
+}
+
+#header h1 a {
+    background-size: contain;
+    background: url(../img/2020art/logo.png) no-repeat center center;
+    background-size: contain;
+    font-size: 0;
+    line-height: 0;
+    width: 98px;
+    height: 64px;
+    display: inline-block;
+}
+
+#header nav {
+    background: url(../img/2020art/nav.png);
+    height: 100px;
+    width: 720px;
+}
+
+#header nav ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+#header nav ul li {
+    display: inline-block;
+    text-align: center;
+    flex: 1;
+}
+
+#header nav ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+    line-height: 0;
+    color: transparent;
+    position: relative;
+}
+
+#header nav ul li:nth-child(1) a {
+    background-size: contain;
+    background: url(../img/2020art/nav1.png) no-repeat center center/260px 25px;
+}
+
+#header nav ul li:nth-child(2) a {
+    background-size: contain;
+    background: url(../img/2020art/nav2.png) no-repeat center center/260px 25px;
+}
+
+#header.fixed h1 {
+    margin-bottom: 100px;
+}
+
+#header.fixed nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    max-width: 720px;
+    z-index: 10;
+}
+
+
+/* kv */
+
+.main-kv {
+    background-size: contain;
+    background: url(../img/2020art/main-kv.png) no-repeat center top/1920px 1215px;
+    height: 1215px;
+}
+
+.kv-button {
+    position: relative;
+    top: 87%;
+    display: flex;
+    justify-content: center
+}
+
+.main-kv .join {
+    background-size: contain;
+    background: url(../img/2020art/join.png) no-repeat;
+    width: 310px;
+    height: 100px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.main-kv .howtodo {
+    background-size: contain;
+    background: url(../img/2020art/howtodo.png) no-repeat;
+    width: 310px;
+    height: 100px;
+    cursor: pointer;
+}
+
+
+/* banner */
+
+.banner {
+    background-size: contain;
+    background: url(../img/2020art/banner.png) no-repeat center top/1920px 277px;
+    height: 277px;
+    position: relative;
+}
+
+.banner-click {
+    width: 660px;
+    height: 277px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 186px;
+    justify-content: space-between;
+}
+
+.gmarket {
+    background: url(../img/2020art/gmarket.png);
+    width: 203px;
+    height: 66px;
+}
+
+.elevenst {
+    background: url(../img/2020art/11st.png);
+    width: 203px;
+    height: 66px;
+}
+
+.auction {
+    background: url(../img/2020art/auction.png);
+    width: 203px;
+    height: 66px;
+}
+
+
+/* last-year*/
+
+.last-year {
+    background-size: contain;
+    background: url(../img/2020art/last-year.jpg) no-repeat;
+    height: 446px;
+    position: relative;
+}
+
+.last-year .swiper-container {
+    width: 600px;
+    height: 200px;
+    top: 42%;
+}
+
+.last-year .swiper-slide {
+    text-align: center;
+}
+
+.last-year .swiper-button-prev {
+    position: absolute;
+    left: 4%;
+    top: 64%;
+    z-index: 1;
+}
+
+.last-year .swiper-button-next {
+    position: absolute;
+    right: 4%;
+    top: 64%;
+    z-index: 1;
+}
+
+
+/* art-list */
+
+.art-list {
+    background-size: contain;
+    background: url(../img/2020art/art-list.png);
+    height: 848px;
+}
+
+.art-list .vote-list {
+    width: 660px;
+    height: 560px;
+    margin: 0 auto;
+    position: relative;
+    top: 22%;
+    overflow-y: scroll;
+    padding-left: 50px;
+}
+
+.art-list .vote-list img {
+    width: 100%;
+    height: 100%;
+}
+
+.art-list .vote-list li {
+    width: 180px;
+    height: 180px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* howto */
+
+.howto {
+    background-size: contain;
+    background: url(../img/2020art/howto.png) no-repeat;
+    height: 780px;
+    padding: 0 14%;
+}
+
+.howto-txt {
+    position: relative;
+    top: 34%;
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.howto-txt ul {
+    margin-bottom: 15px;
+}
+
+.howto-txt li:nth-child(1) {
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.howto-txt ul:nth-child(1) li {
+    letter-spacing: -0.6px;
+}
+
+.howto-txt ul:nth-child(2) li {
+    letter-spacing: -0.7px;
+}
+
+.howto-txt ul:nth-child(3) li:nth-child(1) {
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+.howto-txt li {
+    position: relative;
+    font-weight: 500;
+}
+
+.howto-txt li:nth-child(1):before {
+    display: none;
+}
+
+.howto-txt li:before {
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background-size: contain;
+    background: #666;
+    border-radius: 100%;
+    position: absolute;
+    top: 16px;
+    left: -2.5%;
+}
+
+.howto .button-winner1 {
+    width: 370px;
+    height: 100px;
+    display: block;
+    background: url(../img/2020art/button-winner1.png) no-repeat center center/contain;
+    margin: 60px auto 0;
+}
+
+
+/* prize */
+
+.prize {
+    background-size: contain;
+    background: url(../img/2020art/prize.png) no-repeat;
+    height: 2148px;
+    text-align: center;
+}
+
+.prize-title {
+    position: relative;
+    top: 50px;
+}
+
+.prize1 {
+    width: 585px;
+    height: 585px;
+    margin: 0 auto;
+    position: relative;
+    top: 6.4%;
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+}
+
+.prize-title2 {
+    font-size: 24px;
+    position: relative;
+    top: 11%;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+.prize1 .prize-img {
+    background-size: contain;
+    background: url(../img/2020art/prize1-img.jpg);
+    width: 210px;
+    height: 259px;
+    margin: 0 auto;
+    position: relative;
+    top: 105px;
+}
+
+.prize-name {
+    position: relative;
+    top: 25px;
+}
+
+.prize-name p:nth-child(1) {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.prize-name p:nth-child(2) {
+    font-size: 20px;
+}
+
+.prize2 {
+    position: relative;
+    top: 10%;
+}
+
+.prize2 .swiper-container {
+    width: 585px;
+    height: 585px;
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+}
+
+.prize2 .prize-img {
+    margin: 0 auto;
+    position: relative;
+    top: 17%;
+    width: 334px;
+    height: 266px;
+}
+
+.prize2 .prize-name {
+    position: absolute;
+    top: 471px;
+    width: 100%;
+}
+
+.prize2 .swiper-button-prev {
+    position: absolute;
+    left: 4%;
+    top: 51%;
+    z-index: 1;
+}
+
+.prize2 .swiper-button-next {
+    position: absolute;
+    right: 4%;
+    top: 51%;
+    z-index: 1;
+}
+
+.prize3 {
+    position: relative;
+    top: 13.5%;
+}
+
+.prize3 .prize-img {
+    margin: 0 auto;
+    position: relative;
+    top: 135px;
+}
+
+.prize3 .prize-name {
+    position: absolute;
+    top: 471px;
+    width: 100%;
+}
+
+.prize3 .swiper-container {
+    width: 585px;
+    height: 585px;
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+}
+
+.prize3 .swiper-button-prev {
+    position: absolute;
+    left: 4%;
+    top: 51%;
+    z-index: 1;
+}
+
+.prize3 .swiper-button-next {
+    position: absolute;
+    right: 4%;
+    top: 51%;
+    z-index: 1;
+}
+
+
+/* notice */
+
+.notice {
+    background-size: contain;
+    background: url(../img/2020art/notice.png) no-repeat;
+    height: 1164px;
+    padding: 60px;
+    padding-right: 0px;
+}
+
+.notice-txt {
+    position: relative;
+    top: 10%;
+}
+
+.notice li {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    line-height: 1.3;
+    color: #666;
+    position: relative;
+    letter-spacing: 0;
+}
+
+.notice li:nth-child(1) {
+    margin-top: -15px;
+}
+
+.notice li:before {
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background-size: contain;
+    background: #666;
+    border-radius: 100%;
+    position: absolute;
+    top: 12px;
+    left: -2.5%;
+}
+
+
+/* footer */
+
+#footer {
+    background-color: #3d4036;
+    height: 241px;
+    color: #fff;
+    font-size: 24px;
+}
+
+.footer-inner {
+    width: 720px;
+    margin: 0 auto;
+    padding: 36px 53px;
+    font-family: 'NotoSansKR';
+}
+
+.footer-logo {
+    background-size: contain;
+    background: url(../img/2020art/footer-logo.png) no-repeat;
+    width: 193px;
+    height: 36px;
+}
+
+#footer p:nth-child(2) {
+    margin: 20px 0 30px;
+    letter-spacing: -1pt;
+}
+
+#footer p:nth-child(3) {
+    letter-spacing: 0.6px;
+}
+
+
+/* swiper*/
+
+.swiper-button-prev {
+    background: url(../img/2020art/left.png) no-repeat;
+    width: 18px;
+    height: 36px;
+    background-size: cover;
+}
+
+.swiper-button-prev:after {
+    content: "";
+}
+
+.swiper-button-next {
+    background: url(../img/2020art/right.png) no-repeat;
+    width: 18px;
+    height: 36px;
+    background-size: cover;
+}
+
+.swiper-button-next:after {
+    content: "";
+}
+
+
+/* modal*/
+
+.on {
+    display: block !important;
+}
+
+.okay {
+    background-size: contain;
+    background: url(../img/2020art/okay.png) no-repeat;
+    width: 310px;
+    height: 100px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.exit {
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    position: absolute;
+    right: -2.5%;
+    top: -1.5%;
+}
+
+#modal {
+    background-size: contain;
+    background: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    z-index: -1;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#modal.active {
+    visibility: visible;
+    z-index: 20;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+/* #modal .modal-container {
+    display: none;
+} */
+
+.modal-1,
+.modal-2,
+.modal-3,
+.modal-4,
+.modal-5 {
+    top: 100px;
+}
+
+.kvmodal {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin-bottom: 50px;
+}
+
+.kvmodal .modal-1 {
+    background-size: contain;
+    background: url(../img/2020art/join-1.png) no-repeat;
+    width: 661px;
+    height: 1052px;
+    margin: 0 auto;
+    position: relative;
+    display: none;
+}
+
+.modal1-img {
+    background-size: contain;
+    background: url(../img/2020art/modal1-img.png) no-repeat;
+    width: 580px;
+    height: 577px;
+    margin: 0 auto;
+    position: relative;
+    top: 266px;
+}
+
+#fileInput {
+    display: none;
+}
+
+.kvmodal .addimg {
+    background-size: contain;
+    background: url(../img/2020art/addimg.png) no-repeat;
+    width: 310px;
+    height: 100px;
+    position: relative;
+    top: 302px;
+    margin: 0 auto;
+    cursor: pointer;
+    display: block;
+}
+
+.kvmodal .modal-2 {
+    background-size: contain;
+    background: url(../img/2020art/join-2.png) no-repeat;
+    width: 660px;
+    height: 1054px;
+    margin: 0 auto;
+    position: relative;
+    display: none;
+}
+
+.kvmodal .drag-point {
+    background-size: contain;
+    width: 582px;
+    height: 582px;
+    position: absolute;
+    z-index: 999;
+    top: 0;
+}
+
+.kvmodal .drag-image {
+    background-size: contain;
+    background: url(../img/2020art/drag.png) no-repeat;
+    width: 582px;
+    height: 582px;
+    margin: 0 auto;
+    top: 264px;
+    position: relative;
+}
+
+.kvmodal .drag-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.kvmodal .drag-r {
+    background: url(../img/2020art/drag-point-r.png) no-repeat;
+    width: 38px;
+    height: 38px;
+    position: absolute;
+    top: 0;
+    z-index: 999;
+    right: 0
+}
+
+.kvmodal .drag-l {
+    background: url(../img/2020art/drag-point-l.png) no-repeat;
+    width: 38px;
+    height: 38px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+
+.kvmodal .modal-2 .buttons {
+    top: 305px;
+    width: 584px;
+    margin: 0 auto;
+    height: 100px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rechoice {
+    background-size: contain;
+    background: url(../img/2020art/rechoice.png) no-repeat;
+    width: 284px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.next {
+    background-size: contain;
+    background: url(../img/2020art/next.png) no-repeat;
+    width: 284px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.kvmodal .modal-3 {
+    background-size: contain;
+    background: url(../img/2020art/join-3.png) no-repeat;
+    width: 661px;
+    height: 1221px;
+    margin: 0 auto;
+    position: relative;
+    display: none;
+}
+
+.kvmodal .modal-3 .join {
+    background-size: contain;
+    background: url(../img/2020art/join2.png) no-repeat;
+    width: 310px;
+    height: 100px;
+    position: relative;
+    top: 300px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.kvmodal .modal-3 .copy-tag {
+    background-size: contain;
+    background: url(../img/2020art/hashtag.png) no-repeat;
+    width: 203px;
+    height: 101px;
+    top: 405px;
+    position: relative;
+    left: 427px;
+}
+
+.kvmodal .modal-4 {
+    background-size: contain;
+    background: url(../img/2020art/join-4.png) no-repeat;
+    width: 661px;
+    height: 1067px;
+    margin: 0 auto;
+    position: relative;
+    display: none;
+}
+
+.kvmodal .modal-4 .okay {
+    top: 335px;
+    position: relative;
+}
+
+.kvmodal .modal-5 {
+    background-size: contain;
+    background: url(../img/2020art/join-5.png) no-repeat;
+    width: 661px;
+    height: 719px;
+    margin: 0 auto;
+    position: relative;
+    display: none;
+}
+
+.kvmodal .sns {
+    width: 580px;
+    top: 280px;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between
+}
+
+.kvmodal .sns img {
+    width: 122px;
+    height: 208px;
+}
+
+.kvmodal .modal-5 .okay {
+    top: 335px;
+    position: relative;
+}
+
+
+/* kv how-modal */
+
+.how-modal .modal-1 {
+    background-size: contain;
+    background: url(../img/2020art/howtodo-1.png) no-repeat;
+    width: 660px;
+    height: 1193px;
+    position: relative;
+    margin: 0 auto;
+    display: none;
+}
+
+
+/* vote modal */
+
+.vote-modal .modal-1 {
+    background-size: contain;
+    background: url(../img/2020art/vote-modal-1.png) no-repeat;
+    width: 661px;
+    height: 952px;
+    margin: 0 auto;
+    position: relative;
+    display: none;
+}
+
+.vote-img {
+    background-size: contain;
+    background: url(../img/2020art/sample.png) no-repeat;
+    width: 580px;
+    height: 560px;
+    position: relative;
+    top: 120px;
+    margin: 0 auto;
+}
+
+.vote-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.vote-info {
+    position: relative;
+    height: 70px;
+    width: 580px;
+    margin: 0 auto;
+    top: 155px;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.vote {
+    background-size: contain;
+    background: url(../img/2020art/vote.png) no-repeat;
+    top: 155px;
+    position: relative;
+    width: 310px;
+    height: 100px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.vote-likes {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-left: 38px;
+    background: url(../img/2020art/likes.png) no-repeat left center;
+    background-size: contain;
+}
+
+.likes {
+    background-size: contain;
+    background: url(../img/2020art/likes.png) no-repeat;
+    width: 33px;
+    height: 28px;
+    margin-right: 5px;
+}
+
+.vote-modal .modal-2 {
+    background-size: contain;
+    background: url(../img/2020art/vote-modal-2.png) no-repeat;
+    width: 661px;
+    height: 839px;
+    margin: 0 auto;
+    position: relative;
+    display: none;
+}
+
+.vote-modal .modal-2 .okay {
+    position: relative;
+    top: 250px;
+}
+
+.vote-modal .modal-2 .input-box {
+    position: relative;
+    top: 225px;
+    width: 500px;
+    left: 120px;
+}
+
+.input-box input {
+    width: 500px;
+    height: 105px;
+    background-size: contain;
+    background: #efefef;
+    border: none;
+    margin-bottom: 30px;
+    font-size: 26px;
+    text-indent: 15px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+}
+
+.kvmodal .modal-4 .input-box {
+    position: relative;
+    top: 262px;
+    width: 500px;
+    left: 120px;
+}
+
+
+/* checkbox */
+
+.checkbox input[id="chkbox1"],
+.checkbox input[id="chkbox2"],
+.checkbox input[id="chkbox3"] {
+    width: 50px;
+    height: 70px;
+    position: relative;
+    left: 70%;
+    margin-top: 20px;
+    display: inline-block;
+    border: 1px solid #e4e1d8 !important;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    display: none;
+}
+
+.checkbox input[id="chkbox1"]+label,
+.checkbox input[id="chkbox2"]+label,
+.checkbox input[id="chkbox3"]+label {
+    width: 500px;
+    height: 70px;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+}
+
+.checkbox input[id="chkbox1"]+label {
+    height: 70px;
+    position: relative;
+    top: 265px;
+}
+
+.checkbox input[id="chkbox2"]+label {
+    height: 70px;
+    position: relative;
+    top: 290px;
+    z-index: 1;
+}
+
+.vote-modal .checkbox {
+    height: 70px;
+    position: relative;
+    top: 208px;
+}
+
+.checkbox input[id="chkbox1"]:checked+label,
+.checkbox input[id="chkbox2"]:checked+label,
+.checkbox input[id="chkbox3"]:checked+label {
+    background-size: contain;
+    background: url(../img/2020art/checked.png) no-repeat;
+    width: 31px;
+    height: 31px;
+    background-size: contain;
+    position: relative;
+    display: block;
+}
+
+.checkbox input[id="chkbox3"]:checked+label {
+    left: 352px;
+    top: 18px;
+}
+
+.checkbox input[id="chkbox1"]:checked+label {
+    height: 70px;
+    position: relative;
+    top: 286px;
+    left: 360px;
+}
+
+.checkbox input[id="chkbox2"]:checked+label {
+    height: 70px;
+    position: relative;
+    top: 319px;
+    left: 345px;
+    z-index: 1;
+}
+
+.marketing {
+    background-size: contain;
+    background: url(../img/2020art/marketing.png) no-repeat;
+    width: 333px;
+    height: 31px;
+    position: relative;
+    top: 249px;
+    left: 43px;
+}
+
+
+/* 약관 */
+
+.form-read {
+    width: 582px;
+    height: 328px;
+    position: relative;
+    left: 40px;
+    height: auto;
+    max-height: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: 'NotoSansKR';
+    font-weight: 400;
+    color: #16110d;
+    overflow-y: scroll;
+    line-height: 1.3;
+    transition: max-height 0.3s ease-out;
+    top: 215px;
+    background-size: contain;
+    background: #fff;
+}
+
+.form-read.active {
+    height: auto;
+    max-height: 328px;
+    transition: max-height 0.3s ease-in;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.modal-4 .form-read:nth-child(4) {
+    top: 265px;
+}
+
+.modal-4 .form-read.active:nth-child(4) {
+    top: 265px;
+}
+
+.modal-4 .form-read:nth-child(8) {
+    top: 270px;
+}
+
+.modal-4 .form-read.active:nth-child(8) {
+    top: 270px;
+}
+
+.form-read p {
+    font-size: 20px;
+    margin-bottom: 0.5em;
+    padding: 0 1.5rem;
+    letter-spacing: -1px;
+}
+
+.form-read p:first-child {
+    padding-top: 1.2rem;
+}
+
+.form-read p:last-child {
+    margin-bottom: 1.2em;
+}
+
+.form-read-button {
+    width: 580px;
+    position: relative;
+    left: 40px;
+    height: 70px;
+    background-size: contain;
+    background: #fff;
+    font-size: 23px;
+    font-weight: 500;
+    font-family: 'NotoSansKR';
+    letter-spacing: 0px;
+    color: #333;
+    top: 215px;
+    border: 1px solid #ccc;
+}
+
+.modal-4 .form-read-button:nth-child(3) {
+    top: 265px;
+}
+
+.modal-4 .form-read-button:nth-child(7) {
+    top: 270px;
+}
+
+.form-read-button.active {
+    background-color: #efefef;
+}
+
+.form-read-button::after {
+    content: "\02228";
+    display: inline-block;
+    transform: scale(1, 0.5);
+    margin-left: 230px;
+}
+
+.form-read-button.active::after {
+    content: "\02227";
+    display: inline-block;
+    transform: scale(1, 0.5);
+}
+
+.form-button-2::after {
+    margin-left: 220px;
+}
+
+.form-read-bg {
+    width: 660px;
+    height: 170px;
+    position: absolute;
+    background-size: contain;
+    background: #fff;
+    z-index: -1;
+    transition: height 0.3s ease-out;
+}
+
+.form-read-bg.active {
+    height: 500px;
+    transition: height 0.3s ease-out;
+}
+
+.form-bg1.active {
+    height: 700px;
+}
+
+.form-bg3.active {
+    height: 400px;
+}
+
+
+/* 콘테스트 1차 당첨자 모달 추가 */
+
+#modal.active .winner1-modal.on{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.winner1-modal .modal-1 {
+    width: 720px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    display: none;
+    padding-bottom: 50px;
+}
+
+.winner1-modal .modal-1 .winner1-page1 {
+    background-size: contain;
+    background: url(../img/2020art/winner1-background1.png) no-repeat center top/contain;
+    width: 540px;
+    height: 1465px;
+    margin: 0 auto;
+}
+
+.winner1-modal .modal-1 .winner1-page2 {
+    background-size: contain;
+    background: url(../img/2020art/winner1-background2.png) no-repeat center top/contain;
+    width: 540px;
+    height: 1745px;
+    margin: 0 auto;
+}
+
+.winner1-modal .modal-1 .winner1-page3 {
+    background-size: contain;
+    background: url(../img/2020art/winner1-background3.png) no-repeat center top/contain;
+    width: 540px;
+    height: 1561px;
+    margin: 0 auto;
+}
+
+
+/* 20201216 텍스트로인한 패딩 개별추가 */
+
+.winner1-modal .modal-1 .winner1-page3 .winner1-page3-2 ul {
+    padding: 25px 18px 40px 43px;
+}
+
+
+/* 20201216 닉네임 추가 */
+
+.winner1-modal .modal-1 .winner1-page3 .winner1-page3-2 ul li {
+    text-align: left;
+    font-size: 20px;
+}
+
+.winner1-modal .modal-1 .winner1-page4 {
+    background-size: contain;
+    background: url(../img/2020art/winner1-background4.png) no-repeat center top/contain;
+    width: 660px;
+    height: 1253px;
+    margin: 0 auto;
+}
+
+.winner1-modal .swiper-button-prev {
+    width: 50px;
+    height: 96px;
+    background: url(../img/2020art/winner-prev2.png) no-repeat center center/contain;
+    top: 600px;
+    left: 15px;
+}
+
+.winner1-modal .swiper-button-next {
+    width: 50px;
+    height: 96px;
+    background: url(../img/2020art/winner-next2.png) no-repeat center center/contain;
+    top: 600px;
+    right: 15px;
+}
+
+.winner1-modal .exit {
+    right: 10%;
+    z-index: 1;
+}
+
+.winner1-modal .winner1-list {
+    border: 2px solid #e3e3e3;
+    width: 460px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    margin-left: -230px;
+}
+
+.winner1-modal .winner1-list ul {
+    width: 100%;
+    height: auto;
+    padding: 25px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.winner1-modal .winner1-list ul li {
+    width: 30%;
+    font-size: 24px;
+    font-weight: 400;
+    color: #343130;
+    display: inline-block;
+    line-height: 60px;
+    text-align: center;
+    font-family: 'NotoSansKR';
+}
+
+.winner1-modal .winner1-list ul li span:first-child {
+    margin-right: 10px;
+}
+
+.winner1-modal .winner1-page1-1 {
+    top: 450px;
+    height: 112px;
+}
+
+.winner1-modal .winner1-page1-1 ul {
+    justify-content: center;
+}
+
+.winner1-modal .winner1-page1-2 {
+    top: 827px;
+    height: 112px;
+}
+
+.winner1-modal .winner1-page1-2 ul {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.winner1-modal .winner1-page1-3 {
+    top: 1210px;
+    height: 175px;
+}
+
+.winner1-modal .winner1-page2-1 {
+    top: 450px;
+    height: 480px;
+}
+
+.winner1-modal .winner1-page2-2 {
+    top: 1180px;
+    height: 480px;
+}
+
+.winner1-modal .winner1-page3-1 {
+    top: 450px;
+    height: 480px;
+    overflow-y: auto;
+}
+
+.winner1-modal .winner1-page3-2 {
+    top: 1180px;
+    height: 300px;
+}
+
+.winner1-modal .winner1-page4-1 {
+    top: 450px;
+    height: 300px;
+}
+
+.winner1-modal .winner1-page4-2 {
+    top: 1000px;
+    height: 175px;
+}
+
+
+
+/* 콘테스트 1차 당첨자 모달 추가 */
+
+
+/* mobile */
+
+@media (max-width:720px) {
+    #wrap {
+        max-width: 100.0000vw;
+    }
+    .sr-only {
+        height: 0.1389vw;
+        margin: -0.1389vw;
+        width: 0.1389vw;
+    }
+    /* header */
+    #header h1 {
+        height: 16.5278vw;
+    }
+    #header h1 a {
+        width: 13.6111vw;
+        height: 8.8889vw;
+    }
+    #header nav {
+        width: 100.0000vw;
+        height: 13.8889vw;
+        background-size: contain;
+    }
+    #header nav ul li:nth-child(1) a {
+        background-size: contain;
+        background: url(../img/2020art/nav1.png) no-repeat center center/36.1111vw 3.4722vw;
+    }
+    #header nav ul li:nth-child(2) a {
+        background-size: contain;
+        background: url(../img/2020art/nav2.png) no-repeat center center/36.1111vw 3.4722vw;
+        ;
+    }
+    #header.fixed h1 {
+        margin-bottom: 13.8889vw;
+    }
+    #header.fixed nav {
+        width: 100%;
+        max-width: 100.0000vw;
+    }
+    /* kv */
+    .main-kv {
+        height: 161.9444vw;
+        background-size: contain;
+    }
+    .main-kv .join {
+        background-size: contain;
+        width: 43.0556vw;
+        height: 13.8889vw;
+        margin-right: 4.1667vw;
+    }
+    .main-kv .howtodo {
+        background-size: contain;
+        width: 43.0556vw;
+        height: 13.8889vw;
+    }
+    /* banner */
+    .banner {
+        background: url(../img/2020art/banner.png) no-repeat center top/266.6667vw 38.4722vw;
+        height: 38.4722vw;
+    }
+    /* last-year*/
+    .last-year {
+        background-size: contain;
+        height: 61.9444vw;
+    }
+    .last-year .swiper-container {
+        width: 83.3333vw;
+        height: 27.7778vw;
+    }
+    .last-year .swiper-slide {
+        padding: 0.6944vw;
+    }
+    /* art-list */
+    .art-list {
+        background-size: contain;
+        height: 117.7778vw;
+    }
+    .art-list .vote-list {
+        width: 91.6667vw;
+        height: 77.7778vw;
+        padding-left: 6.9444vw;
+    }
+    .art-list .vote-list li {
+        width: 25.0000vw;
+        height: 25.0000vw;
+        border: 0.1389vw solid black;
+        margin-right: 1.3889vw;
+        margin-bottom: 1.3889vw;
+    }
+    /* howto */
+    .howto {
+        background-size: contain;
+        height: 108.333333333vw;
+    }
+    .howto-txt {
+        font-size: 3.3333vw;
+    }
+    .howto-txt ul {
+        margin-bottom: 2.0833vw;
+    }
+    .howto-txt li:nth-child(1) {
+        margin-bottom: 1.3889vw;
+    }
+    .howto-txt ul:nth-child(1) li {
+        letter-spacing: -0.0833vw;
+    }
+    .howto-txt ul:nth-child(2) li {
+        letter-spacing: -0.0972vw;
+    }
+    .howto-txt li:before {
+        width: 0.6944vw;
+        height: 0.6944vw;
+        top: 2.2222vw;
+    }
+    .howto .button-winner1 {
+        width: 51.388888889vw;
+        height: 13.888888889vw;
+        margin: 8.333333333vw auto 0;
+    }
+    /* prize */
+    .prize {
+        background-size: contain;
+        height: 298.3333vw;
+    }
+    .prize1 {
+        width: 81.2500vw;
+        height: 81.2500vw;
+        box-shadow: 0 0 5.5556vw #e6dfd0;
+    }
+    .prize-title {
+        top: 6.9444vw;
+    }
+    .prize-title2 {
+        font-size: 3.3333vw;
+        line-height: 1.3;
+    }
+    .prize1 .prize-img {
+        background-size: contain;
+        width: 29.1667vw;
+        height: 35.9722vw;
+        top: 14.5833vw;
+    }
+    .prize-name {
+        top: 3.4722vw;
+    }
+    .prize-name p:nth-child(1) {
+        font-size: 3.0556vw;
+        margin-bottom: 1.3889vw;
+    }
+    .prize-name p:nth-child(2) {
+        font-size: 2.7778vw;
+    }
+    .prize2 .swiper-container {
+        width: 81.2500vw;
+        height: 81.2500vw;
+        box-shadow: 0 0 5.5556vw #e6dfd0;
+    }
+    .prize2 .prize-img {
+        width: 46.3889vw;
+        height: 36.9444vw;
+    }
+    .prize2 .prize-name {
+        top: 65.4167vw;
+    }
+    .prize3 .prize-img {
+        top: 18.7500vw;
+    }
+    .prize3 .prize-name {
+        top: 65.4167vw;
+    }
+    .prize3 .swiper-container {
+        width: 81.2500vw;
+        height: 81.2500vw;
+        box-shadow: 0 0 5.5556vw #e6dfd0;
+    }
+    /* notice */
+    .notice {
+        background-size: contain;
+        height: 161.6667vw;
+        padding: 8.3333vw;
+        padding-right: 0;
+    }
+    .notice li {
+        font-size: 2.9556vw;
+        margin-bottom: 3.4722vw;
+        line-height: 1.3;
+    }
+    .notice li:before {
+        width: 0.6944vw;
+        height: 0.6944vw;
+        top: 1.6667vw;
+    }
+    /* footer */
+    #footer {
+        height: 33.4722vw;
+        font-size: 3.3333vw;
+    }
+    .footer-logo {
+        background-size: contain;
+        width: 26.8056vw;
+        height: 5.0000vw;
+    }
+    #footer p:nth-child(2) {
+        margin: 2.7778vw 0 4.1667vw;
+        letter-spacing: -1pt;
+    }
+    #footer p:nth-child(3) {
+        letter-spacing: 0.0833vw;
+    }
+    /* swiper*/
+    .swiper-button-prev {
+        width: 2.5000vw;
+        height: 5.0000vw;
+    }
+    .swiper-button-next {
+        width: 2.5000vw;
+        height: 5.0000vw;
+    }
+    /* modal*/
+    .okay {
+        background-size: contain;
+        width: 43.0556vw;
+        height: 13.8889vw;
+    }
+    .exit {
+        width: 9.7222vw;
+        height: 9.7222vw;
+        right: -2.5%;
+        top: -1.5%;
+    }
+    #modal {
+        background-size: contain;
+    }
+    .modal-1,
+    .modal-2,
+    .modal-3,
+    .modal-4,
+    .modal-5 {
+        top: 13.8889vw;
+    }
+    .kvmodal {
+        margin-bottom: 6.9444vw;
+    }
+    .kvmodal .modal-1 {
+        background-size: contain;
+        width: 91.8056vw;
+        height: 146.1111vw;
+    }
+    .modal1-img {
+        background-size: contain;
+        width: 80.5556vw;
+        height: 80.1389vw;
+        top: 36.9444vw;
+    }
+    .kvmodal .addimg {
+        background-size: contain;
+        width: 43.0556vw;
+        height: 13.8889vw;
+        top: 41.9444vw;
+    }
+    .kvmodal .modal-2 {
+        background-size: contain;
+        width: 91.6667vw;
+        height: 146.3889vw;
+    }
+    .kvmodal .drag-point {
+        background-size: contain;
+        width: 80.8333vw;
+        height: 80.8333vw;
+    }
+    .kvmodal .drag-image {
+        background-size: contain;
+        width: 80.8333vw;
+        height: 80.8333vw;
+        top: 36.6667vw;
+    }
+    .kvmodal .modal-2 .buttons {
+        top: 42.3611vw;
+        width: 81.1111vw;
+        height: 13.8889vw;
+    }
+    .rechoice {
+        background-size: contain;
+        width: 39.4444vw;
+        height: 13.8889vw;
+    }
+    .next {
+        background-size: contain;
+        width: 39.4444vw;
+        height: 13.8889vw;
+    }
+    .kvmodal .modal-3 {
+        background-size: contain;
+        width: 91.8056vw;
+        height: 169.5833vw;
+    }
+    .kvmodal .modal-3 .join {
+        background-size: contain;
+        width: 43.0556vw;
+        height: 13.8889vw;
+        top: 41.6667vw;
+    }
+    .kvmodal .modal-3 .copy-tag {
+        background-size: contain;
+        width: 28.1944vw;
+        height: 14.0278vw;
+        top: 56.2500vw;
+        left: 59.3056vw;
+    }
+    .kvmodal .modal-4 {
+        background-size: contain;
+        width: 91.8056vw;
+        height: 148.1944vw;
+    }
+    .kvmodal .modal-4 .okay {
+        top: 46.5278vw;
+    }
+    .kvmodal .modal-5 {
+        background-size: contain;
+        width: 91.8056vw;
+        height: 99.8611vw;
+    }
+    .kvmodal .sns {
+        width: 80.5556vw;
+        top: 38.8889vw;
+    }
+    .kvmodal .sns img {
+        width: 16.9444vw;
+        height: 28.8889vw;
+    }
+    .kvmodal .modal-5 .okay {
+        top: 46.5278vw;
+    }
+    /* kv how-modal */
+    .how-modal .modal-1 {
+        background-size: contain;
+        width: 91.6667vw;
+        height: 165.6944vw;
+    }
+    /* vote modal */
+    .vote-modal .modal-1 {
+        background-size: contain;
+        width: 91.8056vw;
+        height: 132.2222vw;
+    }
+    .vote-img {
+        background-size: contain;
+        width: 80.5556vw;
+        height: 77.7778vw;
+        top: 16.6667vw;
+    }
+    .vote-info {
+        height: 9.7222vw;
+        width: 80.5556vw;
+        top: 21.5278vw;
+        font-size: 4.1667vw;
+    }
+    .vote {
+        background-size: contain;
+        top: 21.5278vw;
+        width: 43.0556vw;
+        height: 13.8889vw;
+    }
+    .likes {
+        background-size: contain;
+        width: 4.5833vw;
+        height: 3.8889vw;
+        margin-right: 0.6944vw;
+    }
+    .vote-likes {
+        padding-left: 5.2778vw;
+    }
+    .vote-modal .modal-2 {
+        background-size: contain;
+        width: 91.8056vw;
+        height: 116.5278vw;
+    }
+    .vote-modal .modal-2 .okay {
+        top: 34.7222vw;
+    }
+    .vote-modal .modal-2 .input-box {
+        top: 31.2500vw;
+        width: 69.4444vw;
+        left: 16.6667vw;
+    }
+    .input-box input {
+        width: 69.4444vw;
+        height: 14.5833vw;
+        background-size: contain;
+        margin-bottom: 4.1667vw;
+        font-size: 3.6111vw;
+        text-indent: 2.0833vw;
+        letter-spacing: 0.0278vw;
+    }
+    .kvmodal .modal-4 .input-box {
+        top: 36.3889vw;
+        width: 69.4444vw;
+        left: 16.6667vw;
+    }
+    /* checkbox */
+    .checkbox input[id="chkbox1"],
+    .checkbox input[id="chkbox2"],
+    .checkbox input[id="chkbox3"] {
+        width: 6.9444vw;
+        height: 9.7222vw;
+        margin-top: 2.7778vw;
+        border: 0.1389vw solid #e4e1d8 !important;
+        border-radius: 1.3889vw;
+        box-shadow: 0.0000vw 0.0000vw 0.6944vw rgba(0, 0, 0, 0.2);
+    }
+    .checkbox input[id="chkbox1"]+label,
+    .checkbox input[id="chkbox2"]+label,
+    .checkbox input[id="chkbox3"]+label {
+        width: 69.4444vw;
+        height: 9.7222vw;
+    }
+    .checkbox input[id="chkbox1"]+label {
+        height: 9.7222vw;
+        top: 36.8056vw;
+    }
+    .checkbox input[id="chkbox2"]+label {
+        height: 9.7222vw;
+        top: 40.2778vw;
+    }
+    .vote-modal .checkbox {
+        height: 9.7222vw;
+        top: 28.8889vw;
+    }
+    .checkbox input[id="chkbox1"]:checked+label,
+    .checkbox input[id="chkbox2"]:checked+label,
+    .checkbox input[id="chkbox3"]:checked+label {
+        background-size: contain;
+        width: 4.3056vw;
+        height: 4.3056vw;
+    }
+    .checkbox input[id="chkbox3"]:checked+label {
+        left: 48.8889vw;
+        top: 2.5000vw;
+    }
+    .checkbox input[id="chkbox1"]:checked+label {
+        height: 9.7222vw;
+        top: 39.9222vw;
+        left: 50.0000vw;
+    }
+    .checkbox input[id="chkbox2"]:checked+label {
+        height: 9.7222vw;
+        top: 44.3056vw;
+        left: 47.7367vw;
+    }
+    .marketing {
+        background-size: contain;
+        width: 46.2500vw;
+        height: 4.3056vw;
+        top: 34.5833vw;
+        left: 5.9722vw;
+    }
+    /* 약관 */
+    .form-read {
+        width: 80.8333vw;
+        height: 45.5556vw;
+        left: 5.5556vw;
+        font-size: 2.7778vw;
+        top: 29.8611vw;
+        background-size: contain;
+    }
+    .form-read.active {
+        max-height: 45.5556vw;
+        border: 0.1389vw solid #ccc;
+    }
+    .modal-4 .form-read:nth-child(4) {
+        top: 36.8056vw;
+    }
+    .modal-4 .form-read.active:nth-child(4) {
+        top: 36.8056vw;
+    }
+    .modal-4 .form-read:nth-child(8) {
+        top: 37.5000vw;
+    }
+    .modal-4 .form-read.active:nth-child(8) {
+        top: 37.5000vw;
+    }
+    .form-read p {
+        font-size: 3.5vw;
+        margin-bottom: 0.5em;
+        padding: 0 1.5rem;
+    }
+    .form-read p:first-child {
+        padding-top: 1.2rem;
+    }
+    .form-read p:last-child {
+        margin-bottom: 1.2em;
+    }
+    .form-read-button {
+        width: 80.5556vw;
+        left: 5.5556vw;
+        height: 9.7222vw;
+        background-size: contain;
+        font-size: 3.3333vw;
+        top: 29.8611vw;
+        border: 0.1389vw solid #ccc;
+    }
+    .modal-4 .form-read-button:nth-child(3) {
+        top: 36.8056vw;
+    }
+    .modal-4 .form-read-button:nth-child(7) {
+        top: 37.5000vw;
+    }
+    .form-read-button.active {}
+    .form-read-button::after {
+        margin-left: 31.9444vw;
+    }
+    .form-read-button.active::after {
+        margin-left: 31.9444vw;
+    }
+    .form-read-bg {
+        width: 91.6667vw;
+        height: 23.6111vw;
+        background-size: contain;
+    }
+    .form-read-bg.active {
+        height: 69.4444vw;
+    }
+    .prize1 .prize-title {
+        width: 16.1111vw;
+    }
+    .prize2 .swiper-slide .prize-title {
+        width: 12.2222vw;
+    }
+    .prize2 .swiper-slide .prize21 {
+        width: 20.2778vw;
+    }
+    .prize2 .swiper-slide .prize26 {
+        width: 33.3333vw;
+    }
+    .prize3 .swiper-slide .prize-title {
+        width: 33.3333vw;
+    }
+    .prize3 .prize-img {
+        width: 50.5556vw;
+    }
+    .last-year .swiper-button-prev {
+        top: 70%;
+    }
+    .last-year .swiper-button-next {
+        top: 70%;
+    }
+    .form-button-2::after {
+        margin-left: 30.5556vw;
+    }
+    .form-bg1.active {
+        height: 97.2222vw;
+    }
+    .kvmodal .drag-r {
+        background: url(../img/2020art/drag-point-r.png) no-repeat;
+        width: 5.2778vw;
+        height: 5.2778vw;
+        background-size: contain;
+        top: 0;
+        right: 0
+    }
+    .kvmodal .drag-l {
+        background: url(../img/2020art/drag-point-l.png) no-repeat;
+        background-size: contain;
+        width: 5.2778vw;
+        height: 5.2778vw;
+        bottom: 0;
+        left: 0;
+    }
+    .main-kv {
+        background: url(../img/2020art/main-kv.png) no-repeat center top/266.6667vw 168.7500vw;
+        height: 168.7500vw;
+    }
+    .footer-inner {
+        width: 100.0000vw;
+        margin: 0 auto;
+        padding: 5.0000vw 7.3611vw;
+    }
+    .form-bg3.active {
+        height: 55.5556vw;
+    }
+    .banner-click {
+        width: 91.6667vw;
+        height: 38.4722vw;
+        padding-top: 25.8333vw;
+    }
+    .gmarket {
+        background-size: contain;
+        width: 28.1944vw;
+        height: 9.1667vw;
+    }
+    .elevenst {
+        background-size: contain;
+        width: 28.1944vw;
+        height: 9.1667vw;
+    }
+    .auction {
+        background-size: contain;
+        width: 28.1944vw;
+        height: 9.1667vw;
+    }
+    .mo {
+        display: block;
+    }
+    /* 모바일 콘테스트 1차 당첨자 모달 추가 */
+    .winner1-modal .modal-1 {
+        width: 100.000000000vw;
+        padding-bottom: 6.944444444vw;
+    }
+    .winner1-modal .modal-1 .winner1-page1 {
+        width: 75.000000000vw;
+        height: 203.472222222vw;
+    }
+    .winner1-modal .modal-1 .winner1-page2 {
+        width: 75.000000000vw;
+        height: 242.361111111vw;
+    }
+    .winner1-modal .modal-1 .winner1-page3 {
+        width: 75.000000000vw;
+        height: 216.805555556vw;
+    }
+    /* 20201216 텍스트로 인한 개별 추가 */
+    .winner1-modal .modal-1 .winner1-page3 .winner1-page3-2 ul {
+        padding: 3.4722vw 2.5000vw 5.5556vw 5.972222222vw;
+    }
+    /* 20201216 닉네임 추가 */
+    .winner1-modal .modal-1 .winner1-page3 .winner1-page3-2 ul li {
+        font-size: 2.777777778vw;
+    }
+    .winner1-modal .modal-1 .winner1-page4 {
+        width: 91.666666667vw;
+        height: 174.027777778vw;
+    }
+    .winner1-modal .swiper-button-prev {
+        width: 6.944444444vw;
+        height: 13.333333333vw;
+        background: url(../img/2020art/winner-prev2.png) no-repeat center center/contain;
+        top: 83.333333333vw;
+        left: 2.083333333vw;
+    }
+    .winner1-modal .swiper-button-next {
+        width: 6.944444444vw;
+        height: 13.333333333vw;
+        background: url(../img/2020art/winner-next2.png) no-repeat center center/contain;
+        top: 83.333333333vw;
+        right: 2.083333333vw;
+    }
+    .winner1-modal .winner1-list {
+        border: 0.277777778vw solid #e3e3e3;
+        width: 63.888888889vw;
+        margin-left: -31.944444444vw;
+    }
+    .winner1-modal .winner1-list ul {
+        padding: 3.4722vw 5.5556vw;
+    }
+    .winner1-modal .winner1-list ul li {
+        font-size: 3.333333333vw;
+        line-height: 8.333333333vw;
+    }
+    .winner1-modal .winner1-list ul li span:first-child {
+        margin-right: 1.388888889vw;
+    }
+    .winner1-modal .winner1-page1-1 {
+        top: 62.500000000vw;
+        height: 15.555555556vw;
+    }
+    .winner1-modal .winner1-page1-2 {
+        top: 114.861111111vw;
+        height: 15.555555556vw;
+    }
+    .winner1-modal .winner1-page1-2 ul {
+        padding-right: 6.944444444vw;
+        padding-left: 6.944444444vw;
+    }
+    .winner1-modal .winner1-page1-3 {
+        top: 168.055555556vw;
+        height: 24.305555556vw;
+    }
+    .winner1-modal .winner1-page2-1 {
+        top: 62.500000000vw;
+        height: 66.666666667vw;
+    }
+    .winner1-modal .winner1-page2-2 {
+        top: 163.888888889vw;
+        height: 66.666666667vw;
+    }
+    .winner1-modal .winner1-page3-1 {
+        top: 62.500000000vw;
+        height: 66.666666667vw;
+    }
+    .winner1-modal .winner1-page3-2 {
+        top: 163.888888889vw;
+        height: 41.666666667vw;
+    }
+    .winner1-modal .winner1-page4-1 {
+        top: 62.500000000vw;
+        height: 41.666666667vw;
+    }
+    .winner1-modal .winner1-page4-2 {
+        top: 138.888888889vw;
+        height: 24.305555556vw;
+    }
+    @media(max-width:320px) {
+        .notice {
+            margin-bottom: 10vw;
+        }
+    }
+}
