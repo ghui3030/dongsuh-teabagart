@@ -253,13 +253,13 @@ p {
 .howto {
     background-size: contain;
     background: url(../img/2020art/howto.png) no-repeat;
-    height: 780px;
+    height: 660px;
     padding: 0 14%;
 }
 
 .howto-txt {
     position: relative;
-    top: 34%;
+    top: 23%;
     font-size: 24px;
     line-height: 1.5;
 }
