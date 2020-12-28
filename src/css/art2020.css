@@ -374,6 +374,10 @@ p {
     font-size: 20px;
 }
 
+.prize-name .fontMini{
+    line-height: 30px;
+}
+
 .prize2 {
     position: relative;
     top: 10%;
@@ -1484,6 +1488,9 @@ p {
     }
     .prize-name p:nth-child(2) {
         font-size: 2.7778vw;
+    }
+    .prize-name .fontMini{
+        line-height: 4.1667vw;
     }
     .prize2 .swiper-container {
         width: 81.2500vw;
