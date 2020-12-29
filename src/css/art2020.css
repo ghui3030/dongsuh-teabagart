@@ -1175,15 +1175,15 @@ p {
 
 .winner1-modal .modal-1 .winner1-page1 {
     background-size: contain;
-    background: url(../img/2020art/winner1-background1.png) no-repeat center top/contain;
+    background: url(../img/2020art/winner1-background1-2.png) no-repeat center top/contain;
     width: 540px;
-    height: 1465px;
+    height: 1609px;
     margin: 0 auto;
 }
 
 .winner1-modal .modal-1 .winner1-page2 {
     background-size: contain;
-    background: url(../img/2020art/winner1-background2.png) no-repeat center top/contain;
+    background: url(../img/2020art/winner1-background2-2.png) no-repeat center top/contain;
     width: 540px;
     height: 1745px;
     margin: 0 auto;
@@ -1191,7 +1191,7 @@ p {
 
 .winner1-modal .modal-1 .winner1-page3 {
     background-size: contain;
-    background: url(../img/2020art/winner1-background3.png) no-repeat center top/contain;
+    background: url(../img/2020art/winner1-background3-2.png) no-repeat center top/contain;
     width: 540px;
     height: 1561px;
     margin: 0 auto;
@@ -1277,7 +1277,7 @@ p {
 }
 
 .winner1-modal .winner1-page1-1 {
-    top: 450px;
+    top: 595px;
     height: 112px;
 }
 
@@ -1286,7 +1286,7 @@ p {
 }
 
 .winner1-modal .winner1-page1-2 {
-    top: 827px;
+    top: 970px;
     height: 112px;
 }
 
@@ -1296,7 +1296,7 @@ p {
 }
 
 .winner1-modal .winner1-page1-3 {
-    top: 1210px;
+    top: 1350px;
     height: 175px;
 }
 
@@ -1950,7 +1950,7 @@ p {
     }
     .winner1-modal .modal-1 .winner1-page1 {
         width: 75.000000000vw;
-        height: 203.472222222vw;
+        height: 223.4722vw;
     }
     .winner1-modal .modal-1 .winner1-page2 {
         width: 75.000000000vw;
@@ -2002,11 +2002,11 @@ p {
         margin-right: 1.388888889vw;
     }
     .winner1-modal .winner1-page1-1 {
-        top: 62.500000000vw;
+        top: 82.6389vw;
         height: 15.555555556vw;
     }
     .winner1-modal .winner1-page1-2 {
-        top: 114.861111111vw;
+        top: 134.7222vw;
         height: 15.555555556vw;
     }
     .winner1-modal .winner1-page1-2 ul {
@@ -2014,7 +2014,7 @@ p {
         padding-left: 6.944444444vw;
     }
     .winner1-modal .winner1-page1-3 {
-        top: 168.055555556vw;
+        top: 187.5000vw;
         height: 24.305555556vw;
     }
     .winner1-modal .winner1-page2-1 {
